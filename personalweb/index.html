@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>REYESite</title>
+
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+
+</head>
+<body>
+	<nav class="navbar">
+		<h1 class="logo">Personal Website</h1>
+		<ul class="nav-links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#events">Hobbies</a></li>
+			<li><a href="#explore">About Me</a></li>
+			<li class="ctn"><a href="#footer">Contact</a></li>
+		</ul>
+		<img src="./img/menu-btn.jpg" alt="" class="menu-btn">
+	</nav>
+
+	<header>
+		<div class="header-content" >
+			<h1>Hi! I'm Denise</h1>
+			<h2>Come and Learn More About Me</h2>
+			<div class="line"></div>
+			<a href="#explore" class="ctn">Lets Go!</a>
+			<div class="line"></div>
+			
+		</div>
+	</header>
+
+	<!-- == Events/Hobbies ==-->
+	<section class="events" id="events">
+		<div class="title">
+			<h1>Hobbies</h1>
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="./img/img10.jpeg" alt="">
+				<h4>Digital Art</h4>
+				<p> Its always been my hobby since I was a kid to draw and until now I keep creating more digitaly</p>
+				<a href="#tourss" class="ctn">View my works</a>
+			</div>
+			<div class="col">
+				<img src="./img/img9.jpeg" alt="">
+				<h4>Playing games</h4>
+				<p> I like playing games especially with my friends, it makes any game more enjoyable</p>
+				<a href="#tours" class="ctn">Games I play</a>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="explore" id="explore">
+		<div class="explore-content">
+			<h1>Major in Web and Game Development</h1>
+			<div class="line"></div>
+			<h3>Personal Information</h3> <br>
+			<p>Name: Denise Ann C. Reyes</p> <br>
+			<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfnbcqhBvZTggNcjKvzQRJBBdLVPLPSLVtlzwzGjlVbWjJhlMDNSsLCJtNrxMndrPwJgJq">reyesden707@gmail.com</a><br>
+			<p>Address: Dagatan, Dolores, Quezon</p> <br>
+			<h3>Skills</h3> <br>
+			<p>UI/UX Design</p> <br>
+			<p>Programing</p> <br>
+			<p>Adobe Software</p> <br>
+			<a href="#events" class="ctn">Learn More</a>
+		</div>
+	</section>
+
+
+	<!-- == tourssss/about me ==-->
+	<section class="tours" id="tourss">
+		<div class="row">
+			<div class="col content-col">
+				<h1>Sketch</h1>
+				<div class="line"></div>
+				<p>Here are some samples of my sketches</p>
+				
+			</div>
+			<div class="col image-col">
+				<div class="image-gallery">
+					<img src="./img/img1.png" alt="">
+					<img src="./img/img2.png" alt="">
+					<img src="./img/img3.png" alt="">
+					<img src="./img/img4.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- == tourssss/about me ==-->
+	<section class="tours" id="tours">
+		<div class="row">
+			<div class="col content-col">
+				<h1>Games</h1>
+				<div class="line"></div>
+				<p>These are the games I enjoy the most</p><br>
+				<p>GENSHIN IMPACT</p>
+				<p>IDENTITY V</p>
+				<p>TOWER OF FANTASY</p>
+					
+			</div>
+			<div class="col image-col">
+				<div class="image-gallery">
+					<img src="./img/img5.png" alt="">
+					<img src="./img/img6.png" alt="">
+					<img src="./img/img7.png" alt="">
+					<img src="./img/img8.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- == footer ==-->
+	<section class="footer" id="footer">
+		<div class="icons">
+			<h1>Contact me</h1>
+			<div class="line"></div>
+	        <a href="https://twitter.com/desu_waaa" class = "fa fa-twitter"></a>
+	        <a href="https://web.facebook.com/denise.reyes.7186896/" class = "fa fa-facebook"></a>
+	        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfnbcqhBvZTggNcjKvzQRJBBdLVPLPSLVtlzwzGjlVbWjJhlMDNSsLCJtNrxMndrPwJgJq" class = "fa fa-envelope"></a>
+	    </div>
+	     	<div class="line"></div>
+			<p>COPYRIGHT © 2023 reyesden</p>
+			
+	</section>
+
+
+	<script type="text/javascript">
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+</body>
+</html>
